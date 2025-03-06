@@ -1,0 +1,92 @@
+    connectionRetries: 5,
+  timeout: 600000,
+  proxy: {
+    socksType: 4,
+    ip: "174.75.211.222",
+    port: 4145,
+  },
+});
+
+// SMS C
+
+
+messageText = messageText.replace(/\s*[\u{1F300}-\u{1FAFF}\u{2700}-\u{27BF}\u{2600}-\u{26FF}\u{2B50}\u{1F900}-\u{1F9FF}\u{1F680}-\u{1F6FF}\u{1F1E6}-\u{1F1FF}\u{1F600}-\u{1F64F}\u{1F680}-\u{1F6FF}\u{1F700}-\u{1F77F}]+$/gu, '').replace(/#_Musk/g, "").replace(/crypto_musk1/g, "").replace(/#Free_signal/g, "").replace(/Free_signal/g, "").replace(/Free signal/g, "").replace(/Free Signal/g, "").replace(/(Free Signal)/g, "").replace(/#_BinancePro/g, "");
+
+
+
+
+2 {
+  CONSTRUCTOR_ID: 1656358105,
+  SUBCLASS_OF_ID: 2676568142,
+  className: 'UpdateNewChannelMessage',
+  classType: 'constructor',
+  message: {
+    CONSTRUCTOR_ID: 2533211113,
+    SUBCLASS_OF_ID: 2030045667,
+    className: 'Message',
+    classType: 'constructor',
+    out: false,
+    mentioned: false,
+    mediaUnread: false,
+    silent: false,
+    post: true,
+    fromScheduled: false,
+    legacy: false,
+    editHide: false,
+    ttlPeriod: null,
+    id: 47,
+    fromId: null,
+    peerId: {
+      CONSTRUCTOR_ID: 2728736542,
+      SUBCLASS_OF_ID: 47470215,
+      className: 'PeerChannel',
+      classType: 'constructor',
+      channelId: [Integer]
+    },
+    fwdFrom: null,
+    viaBotId: null,
+    replyTo: null,
+    date: 1741253784,
+    message: '🔥 #ZEREBRO/USDT (Short📉, x20) 🔥\n' +
+      '\n' +
+      'Entry - 0.03801\n' +
+      'Take-Profit:\n' +
+      '\n' +
+      '🥉 0.03725 (40% of profit)\n' +
+      '🥈 0.03687 (60% of profit)\n' +
+      '🥇 0.03649 (80% of profit)\n' +
+      '🚀 0.03611 (100% of profit)\n' +
+      '#_BinancePro\n' +
+      '\n' +
+      '✯',
+    media: null,
+    replyMarkup: null,
+    entities: [ [Object], [Object] ],
+    views: 1,
+    forwards: 0,
+    replies: null,
+    editDate: null,
+    pinned: false,
+    postAuthor: null,
+    groupedId: null,
+    restrictionReason: null,
+    action: undefined,
+    noforwards: false,
+    reactions: null,
+    flags: 17536,
+    invertMedia: false,
+    flags2: 0,
+    offline: false,
+    videoProcessingPending: false,
+    fromBoostsApplied: null,
+    savedPeerId: null,
+    viaBusinessBotId: null,
+    quickReplyShortcutId: null,
+    effect: null,
+    factcheck: null,
+    reportDeliveryUntilDate: null
+  },
+  pts: 48,
+  ptsCount: 1
+}
+
